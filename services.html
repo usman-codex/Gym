@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmax - Services</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Swiper.js (for sliders, if Testimonials section is used) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this is updated_style.css -->
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-container">
+            <div class="loader-icon"></div>
+            <p>Loading Fitmax Services...</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="left">
+                    <i class="fas fa-phone-alt"></i> 1-800-488-6040
+                    <span class="separator d-none d-sm-inline">|</span>
+                    <i class="fas fa-clock d-none d-sm-inline"></i> <span class="d-none d-sm-inline">Mon - Fri: 8:00AM - 10:00PM Sat - Sun: Closed</span>
+                </div>
+                <div class="right">
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="search-container">
+                        <button id="search-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+                        <input type="text" id="search-input" placeholder="Search..." aria-label="Search Input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigation navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">FITMAX</a>
+                <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-links ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="services.html">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages.html">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title Banner Section -->
+    <section class="page-title-banner" style="background-image: url('bg-about.png');">
+        <div class="overlay-dark"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <h1 class="animate-on-scroll" data-animation="fadeInDown">Services</h1>
+            <nav aria-label="breadcrumb" class="animate-on-scroll" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="deco-shape banner-shape-1"></div>
+        <div class="deco-shape banner-shape-2"></div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section section-padding animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span class="highlight">Offerings</span></h2>
+                <p>Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="welcome-card">
+                        <div class="icon"><img src="serv-1.png" alt="Body Building Icon"></div>
+                        <h3>BODY BUILDING</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="btn btn-primary">VIEW SCHEDULE</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="welcome-card">
+                        <div class="icon"><img src="serv-2.png" alt="Group Workouts Icon"></div>
+                        <h3>GROUP WORKOUTS</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="btn btn-primary">VIEW SCHEDULE</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4"> <!-- Full width on md, 1/3 on lg -->
+                    <div class="welcome-card">
+                        <div class="icon"><img src="serv-3.png" alt="Boxing Icon"></div>
+                        <h3>BOXING</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <a href="#" class="btn btn-primary">VIEW SCHEDULE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Programs Section -->
+    <section class="programs-section section-padding dark-bg animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span class="highlight">Programs</span></h2>
+                <p>Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="program-card">
+                        <img src="programs-1.jpg" alt="Personal Trainer" class="img-fluid">
+                        <div class="overlay">
+                            <h3>PERSONAL TRAINER</h3>
+                            <a href="#" class="btn btn-outline-light btn-more">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="program-card">
+                        <img src="programs-2.jpg" alt="Free Workout" class="img-fluid">
+                        <div class="overlay">
+                            <h3>FREE WORKOUT</h3>
+                            <a href="#" class="btn btn-outline-light btn-more">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4"> <!-- Full width on md, 1/3 on lg -->
+                    <div class="program-card">
+                        <img src="programs-3.jpg" alt="Crossfit Program" class="img-fluid">
+                        <div class="overlay">
+                            <h3>CROSSFIT</h3>
+                            <a href="#" class="btn btn-outline-light btn-more">MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Club Cards (Pricing) Section -->
+    <section class="club-cards-section section-padding animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Club <span class="highlight">Cards</span></h2>
+                <p>Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
+            </div>
+            <div class="row gy-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="price"><sup>$</sup>40<span class="cents">.99</span></div>
+                        <div class="duration">3 MONTHS</div>
+                        <ul>
+                            <li>Maecenas consequat</li>
+                            <li>Ex id lobortis venenatis</li>
+                            <li>Mauris id erat enim</li>
+                            <li>Morbi dolor dolortin</li>
+                            <li>Lorem ut, venenatis dapibus mi</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card featured">
+                        <div class="price"><sup>$</sup>70<span class="cents">.99</span></div>
+                        <div class="duration">6 MONTHS</div>
+                        <ul>
+                            <li>Maecenas consequat</li>
+                            <li>Ex id lobortis venenatis</li>
+                            <li>Mauris id erat enim</li>
+                            <li>Morbi dolor dolortin</li>
+                            <li>Lorem ut, venenatis dapibus mi</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="price"><sup>$</sup>120<span class="cents">.99</span></div>
+                        <div class="duration">1 YEAR</div>
+                        <ul>
+                            <li>Maecenas consequat</li>
+                            <li>Ex id lobortis venenatis</li>
+                            <li>Mauris id erat enim</li>
+                            <li>Morbi dolor dolortin</li>
+                            <li>Lorem ut, venenatis dapibus mi</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- CTA Banner Section -->
+    <section class="cta-banner-section" style="background-image: url('crossmax-2.jpg');">
+        <div class="overlay-dark"></div>
+        <div class="container text-center position-relative" style="z-index: 2;">
+            <p class="sub-heading animate-on-scroll" data-animation="fadeInUp">OPEN</p>
+            <h2 class="animate-on-scroll" data-animation="fadeInUp" data-animation-delay="0.2s">CROSSMAX</h2>
+            <p class="main-focus animate-on-scroll" data-animation="fadeInUp" data-animation-delay="0.4s">FREE OPEN TRAINING</p>
+        </div>
+    </section>
+
+      <!-- Training Schedule Section -->
+    <section class="schedule-section section-padding dark-bg animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Training <span class="highlight">Schedule</span></h2>
+                <p>Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
+            </div>
+            <div class="schedule-table-container table-responsive">
+                <table class="table table-bordered table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th>TIME</th>
+                            <th>MONDAY</th>
+                            <th>TUESDAY</th>
+                            <th>WEDNESDAY</th>
+                            <th>THURSDAY</th>
+                            <th>FRIDAY</th>
+                            <th>SATURDAY</th>
+                            <th>SUNDAY</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>9-00</td>
+                            <td><strong>BODY BUILDING</strong><br>9:00 - 10:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>BOXING</strong><br>9:00 - 10:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>BOXING</strong><br>9:00 - 10:00<br>Mark Klark</td>
+                        </tr>
+                        <tr>
+                            <td>10-00</td>
+                            <td></td>
+                            <td><strong>YOGA</strong><br>10:00 - 11:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>BODY BUILDING</strong><br>10:00 - 11:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11-00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>BODY BUILDING</strong><br>11:00 - 12:00<br>Mark Klark</td>
+                            <td></td>
+                            <td><strong>BODY BUILDING</strong><br>11:00 - 12:00<br>Mark Klark</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12-00</td>
+                            <td><strong>BODY BUILDING</strong><br>12:00 - 13:00<br>Mark Klark</td>
+                            <td></td>
+                            <td><strong>KARATE</strong><br>12:00 - 13:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>KARATE</strong><br>12:00 - 13:00<br>Mark Klark</td>
+                        </tr>
+                        <tr>
+                            <td>13-00</td>
+                            <td></td>
+                            <td><strong>BODY BUILDING</strong><br>13:00 - 14:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>BODY BUILDING</strong><br>13:00 - 14:00<br>Mark Klark</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer Section -->
+    <footer class="site-footer-section">
+        <div class="container footer-widgets section-padding pb-5">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h3 class="footer-logo">FITMAX</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sed ut perspiciatis unde</a></li>
+                        <li><a href="#">Omnis iste natus error sit</a></li>
+                        <li><a href="#">Voluptatem accusantium</a></li>
+                        <li><a href="#">Doloremque laudantium</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Contact us</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone-alt"></i> 1-800-488-6040</li>
+                        <li><i class="fas fa-envelope"></i> crossfit@mail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> London Street 22b 21</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Blog</h4>
+                    <ul class="list-unstyled footer-blog-posts">
+                        <li>
+                            <img src="footer-icon-1.jpg" alt="Blog Post thumbnail 1">
+                            <a href="#">Sed ut perspiciatis <br> Omnis iste natus error</a>
+                        </li>
+                        <li>
+                            <img src="footer-icon-2.jpg" alt="Blog Post thumbnail 2">
+                            <a href="#">Voluptatem <br> Accusantium doloremque</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                 <p class="mb-2 mb-md-0">Usman_Codex © 2025. All Rights Reserved.</p>
+                <ul class="list-inline mb-0 footer-nav">
+                    <li class="list-inline-item"><a href="index.html">HOME</a></li>
+                    <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                    <li class="list-inline-item"><a href="services.html">SERVICES</a></li>
+                    <li class="list-inline-item"><a href="news.html">NEWS</a></li>
+                    <li class="list-inline-item"><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS (if Testimonials section is used) -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Your Custom JS -->
+    <script src="script.js"></script> <!-- Make sure this is updated_script.js -->
+
+</body>
+</html>

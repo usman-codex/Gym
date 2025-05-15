@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmax - About Us</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Swiper.js (for sliders, if Testimonials section is used) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader (Optional) -->
+    <div id="preloader">
+        <div class="loader-container">
+            <div class="loader-icon"></div>
+            <p>Loading Fitmax...</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="left">
+                    <i class="fas fa-phone-alt"></i> 1-800-488-6040
+                    <span class="separator d-none d-sm-inline">|</span>
+                    <i class="fas fa-clock d-none d-sm-inline"></i> <span class="d-none d-sm-inline">Mon - Fri: 8:00AM - 10:00PM Sat - Sun: Closed</span>
+                </div>
+                <div class="right">
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="search-container">
+                        <button id="search-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+                        <input type="text" id="search-input" placeholder="Search..." aria-label="Search Input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigation navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">FITMAX</a>
+                <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-links ms-auto">
+                       <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages.html">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title Banner Section -->
+    <section class="page-title-banner" style="background-image: url('bg-about.png');">
+        <div class="overlay-dark"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <h1 class="animate-on-scroll" data-animation="fadeInDown">ABOUT</h1>
+            <nav aria-label="breadcrumb" class="animate-on-scroll" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="deco-shape banner-shape-1"></div>
+        <div class="deco-shape banner-shape-2"></div>
+    </section>
+
+    <!-- About Company Section -->
+    <section class="about-company-section section-padding animate-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-images">
+                        <img src="programs-2.jpg" alt="About Us Main Image" class="img-fluid main-about-image">
+                        <img src="programs-3.jpg" alt="About Us Detail Image" class="img-fluid detail-about-image d-none d-md-block">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title text-start">
+                        <h2>About <span class="highlight">Company</span></h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="contact-info-about mt-4">
+                        <p><i class="fas fa-phone-alt"></i> 1-800-488-6040</p>
+                        <p><i class="fas fa-envelope"></i> fitmax@example.com</p>
+                    </div>
+                    <div class="social-icons-about mt-3">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section section-padding dark-bg animate-section">
+        <div class="container">
+            <div class="row text-center gy-4">
+                <div class="col-md-4">
+                    <div class="stat-item">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">YEARS</div>
+                        <p>Facilis voluptus harum notus enim dolorum dolores.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-item">
+                        <div class="stat-number">27</div>
+                        <div class="stat-label">TRAINER</div>
+                        <p>But I must explain to you all this mistaken idea of.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-item">
+                        <div class="stat-number">18</div>
+                        <div class="stat-label">CLUB</div>
+                        <p>Nor again is there anyone who loves or pursues or.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter-section section-padding animate-section" style="background-image: url('bg-about.png');">
+        <div class="overlay-dark"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="row text-center gy-4">
+                <div class="col-6 col-md-4 col-lg-2-custom">
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="30">0</div>
+                        <div class="counter-label">TRAININGS</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2-custom">
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="60">0</div>
+                        <div class="counter-label">LOREM IPSUM</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2-custom">
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="26">0</div>
+                        <div class="counter-label">DOLOR SIT AMET</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-2-custom">
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="430">0</div>
+                        <div class="counter-label">QUIA DOLOR SIT</div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2-custom">
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="130">0</div>
+                        <div class="counter-label">LOREM IPSUM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="deco-shape counter-shape-1"></div>
+        <div class="deco-shape counter-shape-2"></div>
+    </section>
+
+    <!-- Our Trainer Section -->
+    <section class="trainer-section section-padding animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span class="highlight">Trainer</span></h2>
+                <p>Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
+            </div>
+            <div class="row gy-4 justify-content-center"> <!-- Replaced trainer-cards-grid -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-card">
+                        <img src="trainer-1.jpg" alt="Sam Piters" class="img-fluid">
+                        <div class="info">
+                            <h3>SAM PITERS</h3>
+                            <span class="specialization">WEIGHTLIFTING</span>
+                            <p>Maecenas consequat ex id lobortis venenatis...</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-card">
+                        <img src="trainer-2 (2).jpg" alt="Kim Piters" class="img-fluid">
+                        <div class="info">
+                            <h3>KIM PITERS</h3>
+                            <span class="specialization">WEIGHTLIFTING</span>
+                            <p>Maecenas consequat ex id lobortis venenatis...</p>
+                            <div class="social-links">
+                               <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                               <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                               <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                               <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-card">
+                        <img src="trainer-3.jpg" alt="Samanta Piters" class="img-fluid">
+                        <div class="info">
+                            <h3>SAMANTA PITERS</h3>
+                            <span class="specialization">WEIGHTLIFTING</span>
+                            <p>Maecenas consequat ex id lobortis venenatis...</p>
+                            <div class="social-links">
+                               <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                               <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                               <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                               <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding dark-bg" style="background-image: url('bg-testimonials.jpg');">
+        <div class="overlay-dark" style="background-image: url('bg-testimonials.svg'); background-size: auto; background-repeat: repeat; opacity: 0.1;"></div>
+        <div class="container position-relative" style="z-index: 2;">
+             <div class="swiper-container testimonial-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonial-item">
+                        <img src="testimonials-1.png" alt="Kat Smith" class="client-image">
+                        <h4>KAT SMITH</h4>
+                        <p class="client-title">OUR CLIENT</p>
+                        <p class="quote">"Phasellus vestibulum nec dolor quis varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit..."</p>
+                    </div>
+                    <div class="swiper-slide testimonial-item">
+                        <img src="testimonials-2.png" alt="Mark Klark" class="client-image">
+                        <h4>MARK KLARK</h4>
+                        <p class="client-title">OUR CLIENT</p>
+                        <p class="quote">"Suspendisse potenti. Nunc sodales, nibh vel dictum dictum, purus nisl aliquet nisl..."</p>
+                    </div>
+                     <div class="swiper-slide testimonial-item">
+                        <img src="testimonials-3.png " alt="Anna Piters" class="client-image">
+                        <h4>ANNA PITERS</h4>
+                        <p class="client-title">OUR CLIENT</p>
+                        <p class="quote">"Donec eu mi eget nibh sollicitudin venenatis id nec massa. Nullam vitae justo..."</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination testimonial-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands/Partners Logos Section -->
+    <section class="brands-section section-padding animate-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center gy-4">
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="partners-1.svg" alt="Brand Logo 1" class="img-fluid brand-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="partners-2.svg" alt="Brand Logo 2" class="img-fluid brand-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="partners-3.svg" alt="Brand Logo 3" class="img-fluid brand-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="partners-4.svg" alt="Brand Logo 4" class="img-fluid brand-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="partners-5.svg" alt="Brand Logo 5" class="img-fluid brand-logo">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <img src="partners-6.svg" alt="Brand Logo 6" class="img-fluid brand-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section (Short version for About page) -->
+    <section class="contact-us-section-short section-padding dark-bg animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <p>Have questions or want to join? Contact us today!</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="contact-form-short">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="shortContactName" class="form-label visually-hidden">Name</label>
+                                <input type="text" class="form-control" id="shortContactName" placeholder="Your Name *" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="shortContactEmail" class="form-label visually-hidden">Email</label>
+                                <input type="email" class="form-control" id="shortContactEmail" placeholder="Your Email *" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="shortContactMessage" class="form-label visually-hidden">Message</label>
+                                <textarea class="form-control" id="shortContactMessage" rows="4" placeholder="Your Message *" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer-section">
+        <div class="container footer-widgets section-padding pb-5">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h3 class="footer-logo">FITMAX</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sed ut perspiciatis unde</a></li>
+                        <li><a href="#">Omnis iste natus error sit</a></li>
+                        <li><a href="#">Voluptatem accusantium</a></li>
+                        <li><a href="#">Doloremque laudantium</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Contact us</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone-alt"></i> 1-800-488-6040</li>
+                        <li><i class="fas fa-envelope"></i> crossfit@mail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> London Street 22b 21</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Blog</h4>
+                    <ul class="list-unstyled footer-blog-posts">
+                        <li>
+                            <img src="blog-1.jpg" alt="Blog Post thumbnail 1">
+                            <a href="#">Sed ut perspiciatis <br> Omnis iste natus error</a>
+                        </li>
+                        <li>
+                            <img src="blog-4.jpg" alt="Blog Post thumbnail 2">
+                            <a href="#">Voluptatem <br> Accusantium doloremque</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                 <p class="mb-2 mb-md-0">Usman_Codex © 2025. All Rights Reserved.</p>
+                <ul class="list-inline mb-0 footer-nav">
+                    <li class="list-inline-item"><a href="index.html">HOME</a></li>
+                    <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                    <li class="list-inline-item"><a href="services.html">SERVICES</a></li>
+                    <li class="list-inline-item"><a href="news.html">NEWS</a></li>
+                    <li class="list-inline-item"><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Your Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

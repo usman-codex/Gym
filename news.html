@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmax - News</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Swiper.js (if used in header/footer or other elements) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Your MAIN Custom CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this is updated_style.css -->
+    <!-- Page-Specific CSS for Blog -->
+    <link rel="stylesheet" href="blog-style.css"> <!-- Make sure this is updated_blog-style.css -->
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-container">
+            <div class="loader-icon"></div>
+            <p>Loading Fitmax News...</p>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="left">
+                    <i class="fas fa-phone-alt"></i> 1-800-488-6040
+                    <span class="separator d-none d-sm-inline">|</span>
+                    <i class="fas fa-clock d-none d-sm-inline"></i> <span class="d-none d-sm-inline">Mon - Fri: 8:00AM - 10:00PM Sat - Sun: Closed</span>
+                </div>
+                <div class="right">
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="search-container">
+                        <button id="search-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+                        <input type="text" id="search-input" placeholder="Search..." aria-label="Search Input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigation navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">FITMAX</a>
+                <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav nav-links ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages.html">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="news.html">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title Banner Section -->
+    <section class="page-title-banner blog-title-banner" style="background-image: url('bg-about.png');">
+        <div class="overlay-dark"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <h1 class="animate-on-scroll" data-animation="fadeInDown">News</h1>
+            <nav aria-label="breadcrumb" class="animate-on-scroll" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">News</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="deco-shape banner-shape-1 blog-deco-1"></div>
+        <div class="deco-shape banner-shape-2 blog-deco-2"></div>
+        <div class="deco-shape banner-shape-3 blog-deco-3"></div>
+        <div class="deco-shape banner-shape-4 blog-deco-4"></div>
+    </section>
+
+    <!-- Main Blog Content Section -->
+    <section class="blog-content-section section-padding animate-section">
+        <div class="container">
+            <div class="row">
+                <!-- Blog Posts Column -->
+                <div class="col-lg-8">
+                    <div class="blog-posts-area">
+                        <!-- Single Blog Post Card -->
+                        <article class="blog-post-card mb-4">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="blog-1.jpg" alt="Man lifting weights" class="img-fluid"></a>
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta list-inline">
+                                    <li class="list-inline-item"><i class="fas fa-user"></i> By Rovadex</li>
+                                    <li class="list-inline-item"><i class="fas fa-calendar-alt"></i> October 31, 2019</li>
+                                    <li class="list-inline-item"><i class="fas fa-tag"></i> Fitness</li>
+                                </ul>
+                                <h2 class="post-title"><a href="#">Sed ut perspiciatis unde omnis</a></h2>
+                                <p class="post-excerpt">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt...
+                                </p>
+                                <div class="post-bottom-meta">
+                                    <div>
+                                        <span class="comments-count"><i class="fas fa-comments"></i> 2 Comment(s)</span>
+                                        <span class="authors ms-3"><i class="fas fa-pencil-alt"></i> Aemnon, Mattis</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-read-more">Read More</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Single Blog Post Card -->
+                        <article class="blog-post-card mb-4">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="slide-1.jpg" alt="Workout equipment" class="img-fluid"></a>
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta list-inline">
+                                    <li class="list-inline-item"><i class="fas fa-user"></i> By Rovadex</li>
+                                    <li class="list-inline-item"><i class="fas fa-calendar-alt"></i> October 28, 2019</li>
+                                    <li class="list-inline-item"><i class="fas fa-tag"></i> Lifting</li>
+                                </ul>
+                                <h2 class="post-title"><a href="#">Creating a WordPress Blog</a></h2>
+                                <p class="post-excerpt">
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt...
+                                </p>
+                                <div class="post-bottom-meta">
+                                    <div>
+                                        <span class="comments-count"><i class="fas fa-comments"></i> 0 Comment(s)</span>
+                                        <span class="authors ms-3"><i class="fas fa-pencil-alt"></i> Aemnon, Mattis</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-read-more">Read More</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blockquote Example -->
+                        <div class="blog-blockquote my-4">
+                            <blockquote>
+                                <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias."</p>
+                                <footer>— Kerry Ashman</footer>
+                            </blockquote>
+                        </div>
+
+                        <!-- Single Blog Post Card -->
+                         <article class="blog-post-card mb-4">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="slide-2.jpg" alt="Woman working out" class="img-fluid"></a>
+                            </div>
+                            <div class="post-content">
+                                <ul class="post-meta list-inline">
+                                    <li class="list-inline-item"><i class="fas fa-user"></i> By Rovadex</li>
+                                    <li class="list-inline-item"><i class="fas fa-calendar-alt"></i> October 25, 2019</li>
+                                    <li class="list-inline-item"><i class="fas fa-tag"></i> Training</li>
+                                </ul>
+                                <h2 class="post-title"><a href="#">Nemo enim ipsam voluptatem quia</a></h2>
+                                <p class="post-excerpt">
+                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                </p>
+                                <div class="post-bottom-meta">
+                                     <div>
+                                        <span class="comments-count"><i class="fas fa-comments"></i> 5 Comment(s)</span>
+                                        <span class="authors ms-3"><i class="fas fa-pencil-alt"></i> Aemnon, Mattis</span>
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-read-more">Read More</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Pagination -->
+                        <nav aria-label="Page navigation" class="blog-pagination mt-5">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled"><a class="page-link" href="#" aria-label="Previous"><i class="fas fa-chevron-left"></i></a></li>
+                                <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#" aria-label="Next"><i class="fas fa-chevron-right"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Sidebar Column -->
+                <div class="col-lg-4">
+                    <aside class="blog-sidebar">
+                        <!-- Search Widget -->
+                        <div class="widget widget-search">
+                            <h3 class="widget-title">Search</h3>
+                            <form action="#" class="search-form">
+                                <input type="text" placeholder="Search" class="form-control" aria-label="Search blog posts">
+                                <button type="submit" class="btn" aria-label="Submit search"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+
+                        <!-- Archive Widget -->
+                        <div class="widget widget-archive">
+                            <h3 class="widget-title">Archive</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> January 2019</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> February 2019</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> March 2019</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> April 2019</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> May 2019</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Categories Widget -->
+                        <div class="widget widget-categories">
+                            <h3 class="widget-title">Categories</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Training</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Conferences</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> Development</a></li>
+                                <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Designer</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Recent Blog Posts Widget -->
+                        <div class="widget widget-recent-posts">
+                            <h3 class="widget-title">Recent Blog Posts</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Mobile App Design: From Beginner to Intermediate</a>
+                                    <span class="post-date">Dec 27, 2018 at 5:47 pm</span>
+                                </li>
+                                <li>
+                                    <a href="#">Et horum quidem rerum facilis est et expedita distinctio</a>
+                                    <span class="post-date">Dec 17, 2018 at 5:47 pm</span>
+                                </li>
+                                <li>
+                                    <a href="#">Nam libero tempore, cum soluta nobis est eligendi optio</a>
+                                    <span class="post-date">Dec 01, 2018 at 5:47 pm</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Instagram Widget -->
+                        <div class="widget widget-instagram">
+                            <h3 class="widget-title">Instagram</h3>
+                            <div class="instagram-feed">
+                                <a href="#" class="instagram-item" aria-label="Instagram Post 1"><img src="testimonials-1.png" alt="Instagram image 1"></a>
+                                <a href="#" class="instagram-item" aria-label="Instagram Post 2"><img src="testimonials-2.png" alt="Instagram image 2"></a>
+                                <a href="#" class="instagram-item" aria-label="Instagram Post 3"><img src="testimonials-3.png" alt="Instagram image 3"></a>
+                                <a href="#" class="instagram-item" aria-label="Instagram Post 4"><img src="crossmax-2.jpg" alt="Instagram image 4"></a>
+                                <a href="#" class="instagram-item" aria-label="Instagram Post 5"><img src="trainer-1.jpg" alt="Instagram image 5"></a>
+                                <a href="#" class="instagram-item" aria-label="Instagram Post 6"><img src="trainer-4.jpg" alt="Instagram image 6"></a>
+                            </div>
+                        </div>
+
+                        <!-- Newsletter Widget -->
+                        <div class="widget widget-newsletter">
+                            <h3 class="widget-title">Newsletter</h3>
+                            <form action="#" class="newsletter-form">
+                                <input type="email" placeholder="Your E-mail" class="form-control" aria-label="Email for newsletter">
+                                <button type="submit" class="btn" aria-label="Subscribe to newsletter"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer-section">
+        <div class="container footer-widgets section-padding pb-5">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h3 class="footer-logo">FITMAX</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sed ut perspiciatis unde</a></li>
+                        <li><a href="#">Omnis iste natus error sit</a></li>
+                        <li><a href="#">Voluptatem accusantium</a></li>
+                        <li><a href="#">Doloremque laudantium</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Contact us</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone-alt"></i> 1-800-488-6040</li>
+                        <li><i class="fas fa-envelope"></i> crossfit@mail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> London Street 22b 21</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Blog</h4>
+                    <ul class="list-unstyled footer-blog-posts">
+                        <li>
+                            <img src="blog-1.jpg" alt="Blog Post thumbnail 1">
+                            <a href="#">Sed ut perspiciatis <br> Omnis iste natus error</a>
+                        </li>
+                        <li>
+                            <img src="blog-4.jpg" alt="Blog Post thumbnail 2">
+                            <a href="#">Voluptatem <br> Accusantium doloremque</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                 <p class="mb-2 mb-md-0">Usman_Codex © 2025. All Rights Reserved.</p>
+                <ul class="list-inline mb-0 footer-nav">
+                    <li class="list-inline-item"><a href="index.html">HOME</a></li>
+                    <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                    <li class="list-inline-item"><a href="services.html">SERVICES</a></li>
+                    <li class="list-inline-item"><a href="news.html" class="active-footer-link">NEWS</a></li>
+                    <li class="list-inline-item"><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS (if used) -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Your Custom JS -->
+    <script src="script.js"></script> <!-- Make sure this is updated_script.js -->
+
+</body>
+</html>

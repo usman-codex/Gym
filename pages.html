@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitmax - Our Expert Trainers</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Make sure this is updated_style.css -->
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-container">
+            <div class="loader-icon"></div>
+            <p>Loading Our Trainers...</p>
+        </div>
+    </div>
+
+    <!-- Header Section (Reused from other pages) -->
+    <header class="site-header">
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="left">
+                    <i class="fas fa-phone-alt"></i> 1-800-488-6040
+                    <span class="separator d-none d-sm-inline">|</span>
+                    <i class="fas fa-clock d-none d-sm-inline"></i> <span class="d-none d-sm-inline">Mon - Fri: 8:00AM - 10:00PM Sat - Sun: Closed</span>
+                </div>
+                <div class="right">
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="search-container">
+                        <button id="search-icon" aria-label="Search"><i class="fas fa-search"></i></button>
+                        <input type="text" id="search-input" placeholder="Search..." aria-label="Search Input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-navigation navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">FITMAX</a>
+                <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav nav-links ms-auto">
+                       <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages.html">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title Banner Section -->
+    <section class="page-title-banner trainer-title-banner" style="background-image: url('images/banner-trainers.jpg');">
+        <!-- Replace 'images/banner-trainers.jpg' with your desired banner image for trainers page -->
+        <div class="overlay-dark"></div>
+        <div class="container position-relative" style="z-index: 2;">
+            <h1 class="animate-on-scroll" data-animation="fadeInDown">Our Trainers</h1>
+            <nav aria-label="breadcrumb" class="animate-on-scroll" data-animation="fadeInUp" data-animation-delay="0.2s">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Trainers</li>
+                </ol>
+            </nav>
+        </div>
+        <!-- Optional Decorative elements for banner -->
+        <div class="deco-shape banner-shape-1" style="border-color: #fff; opacity: 0.05;"></div>
+        <div class="deco-shape banner-shape-2" style="border-bottom-color: #fff; opacity: 0.05;"></div>
+    </section>
+
+    <!-- Trainers Grid Section -->
+    <section class="trainers-grid-section section-padding animate-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meet Our <span class="highlight">Expert Team</span></h2>
+                <p>Our certified trainers are dedicated to helping you achieve your fitness goals with personalized guidance and motivation.</p>
+            </div>
+
+            <div class="row gy-4 justify-content-center">
+                <!-- Trainer 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-profile-card">
+                        <div class="trainer-image-wrapper">
+                            <img src="trainer-1.jpg" alt="Sam Piters - Weightlifting Coach" class="img-fluid">
+                            <!-- Replace images/trainer-1.jpg with actual image path -->
+                        </div>
+                        <div class="trainer-info-content">
+                            <h3 class="trainer-name">Sam Piters</h3>
+                            <p class="trainer-specialization">Weightlifting Coach</p>
+                            <p class="trainer-bio">Sam is a certified weightlifting coach with over 8 years of experience, focusing on strength and conditioning.</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Sam Piters Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Sam Piters Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Sam Piters Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-profile-card">
+                        <div class="trainer-image-wrapper">
+                            <img src="blog-1.jpg" alt="Kimberly Evans - Yoga & Pilates Instructor" class="img-fluid">
+                            <!-- Replace images/trainer-2.jpg with actual image path -->
+                        </div>
+                        <div class="trainer-info-content">
+                            <h3 class="trainer-name">Kimberly Evans</h3>
+                            <p class="trainer-specialization">Yoga & Pilates Instructor</p>
+                            <p class="trainer-bio">Kimberly brings a holistic approach to fitness, specializing in Yoga and Pilates for flexibility and core strength.</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Kimberly Evans Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Kimberly Evans Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Kimberly Evans YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-profile-card">
+                        <div class="trainer-image-wrapper">
+                            <img src="trainer-3.jpg" alt="Mark Johnson - CrossFit Specialist" class="img-fluid">
+                            <!-- Replace images/trainer-3.jpg with actual image path -->
+                        </div>
+                        <div class="trainer-info-content">
+                            <h3 class="trainer-name">Mark Johnson</h3>
+                            <p class="trainer-specialization">CrossFit Specialist</p>
+                            <p class="trainer-bio">A Level 2 CrossFit trainer, Mark is passionate about high-intensity functional training and community building.</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Mark Johnson Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Mark Johnson Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer 4 (Add more if needed) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-profile-card">
+                        <div class="trainer-image-wrapper">
+                            <img src="trainer-4.jpg" alt="Anna Williams - Nutrition & Cardio Expert" class="img-fluid">
+                            <!-- Replace images/trainer-4.jpg with actual image path -->
+                        </div>
+                        <div class="trainer-info-content">
+                            <h3 class="trainer-name">Anna Williams</h3>
+                            <p class="trainer-specialization">Nutrition & Cardio Expert</p>
+                            <p class="trainer-bio">Anna combines her expertise in nutrition and cardio fitness to help clients achieve sustainable lifestyle changes.</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Anna Williams Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Anna Williams Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Anna Williams LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Trainer 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-profile-card">
+                        <div class="trainer-image-wrapper">
+                            <img src="programs-1.jpg" alt="David Lee - Boxing Coach" class="img-fluid">
+                            <!-- Replace images/trainer-5.jpg with actual image path -->
+                        </div>
+                        <div class="trainer-info-content">
+                            <h3 class="trainer-name">David Lee</h3>
+                            <p class="trainer-specialization">Boxing Coach</p>
+                            <p class="trainer-bio">Former professional boxer, David now channels his passion into coaching, focusing on technique and discipline.</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="David Lee Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="David Lee YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="trainer-profile-card">
+                        <div class="trainer-image-wrapper">
+                            <img src="programs-2.jpg" alt="Jessica Miller - Functional Fitness Pro" class="img-fluid">
+                            <!-- Replace images/trainer-6.jpg with actual image path -->
+                        </div>
+                        <div class="trainer-info-content">
+                            <h3 class="trainer-name">Jessica Miller</h3>
+                            <p class="trainer-specialization">Functional Fitness Pro</p>
+                            <p class="trainer-bio">Jessica excels in creating dynamic functional fitness routines that improve everyday strength and mobility.</p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Jessica Miller Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Jessica Miller Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- End Row -->
+        </div> <!-- End Container -->
+    </section>
+
+    <!-- Become a Trainer CTA Section -->
+    <section class="become-trainer-cta section-padding dark-bg animate-section">
+        <div class="container text-center">
+            <h2 class="cta-title mb-3">Join Our <span class="highlight">Elite Team</span>?</h2>
+            <p class="lead mb-4">Are you a passionate and certified fitness professional? <br class="d-none d-md-block">We're always looking for talented individuals to join the Fitmax family.</p>
+            <a href="contact.html?subject=TrainerApplication" class="btn btn-primary btn-lg">Apply Now & Inspire Others</a>
+        </div>
+    </section>
+
+    <!-- Footer Section (Reused from other pages) -->
+    <footer class="site-footer-section">
+        <div class="container footer-widgets section-padding pb-5">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h3 class="footer-logo">FITMAX</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Sed ut perspiciatis unde</a></li>
+                        <li><a href="#">Omnis iste natus error sit</a></li>
+                        <li><a href="#">Voluptatem accusantium</a></li>
+                        <li><a href="#">Doloremque laudantium</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Contact us</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone-alt"></i> 1-800-488-6040</li>
+                        <li><i class="fas fa-envelope"></i> crossfit@mail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> London Street 22b 21</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <h4>Blog</h4>
+                    <ul class="list-unstyled footer-blog-posts">
+                        <li>
+                            <img src="footer-icon-1.jpg" alt="Blog Post thumbnail 1">
+                            <a href="#">Sed ut perspiciatis <br> Omnis iste natus error</a>
+                        </li>
+                        <li>
+                            <img src="footer-icon-2.jpg" alt="Blog Post thumbnail 2">
+                            <a href="#">Voluptatem <br> Accusantium doloremque</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="mb-2 mb-md-0">Usman_Codex © 2025. All Rights Reserved.</p>
+                <ul class="list-inline mb-0 footer-nav">
+                    <li class="list-inline-item"><a href="index.html">HOME</a></li>
+                    <li class="list-inline-item"><a href="about.html">ABOUT</a></li>
+                    <li class="list-inline-item"><a href="services.html">SERVICES</a></li>
+                    <li class="list-inline-item"><a href="news.html">NEWS</a></li>
+                    <li class="list-inline-item"><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS (Only if used, e.g. in header/footer - not critical for this page content) -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- Your Custom JS -->
+    <script src="script.js"></script> <!-- Make sure this is updated_script.js -->
+</body>
+</html>
